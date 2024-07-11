@@ -11,13 +11,17 @@ import NearMeIcon from "@mui/icons-material/NearMe";
 import NoteIcon from "@mui/icons-material/Note";
 import { Duo, ExpandMore, Person, Phone } from "@mui/icons-material";
 import { IconButton } from "@material-ui/core";
+import { useDispatch } from "react-redux";
+import { openSendMessage } from "./features/mailSlice";
 
 function Sidebar() {
+  const dispatch = useDispatch();
   return (
     <div className="sidebar">
       <Button
         className="sidebar_compose"
         startIcon={<CreateIcon fontSize="large" />}
+        onClick={() => dispatch(openSendMessage())}
       >
         Compose
       </Button>
