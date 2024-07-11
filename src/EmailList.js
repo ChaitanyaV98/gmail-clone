@@ -55,13 +55,13 @@ function EmailList() {
       <div className="emailList__list">
         <EmailRow
           title="Twich"
-          Subject="Hellow fellow streamer"
+          subject="Hellow fellow streamer"
           description="This is a test"
           time="10pm"
         />
         <EmailRow
           title="Twich"
-          Subject="Hellow fellow streamer"
+          subject="Hellow fellow streamer"
           description="This is a testThis is a testThis is a test This is a test This is a test This is a test"
           time="10pm"
         />
