@@ -23,7 +23,6 @@
 
 .emailRow__message > h4 {
   width: 400px;
-  /* white-space: nowrap !important; */
   white-space: nowrap !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
@@ -38,10 +37,10 @@
 
 .emailRow__time {
   padding-right: 15px;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: bold;
 }
-.emailRow__desciption {
+.emailRow__description {
   font-weight: 400;
   color: grey;
 }
