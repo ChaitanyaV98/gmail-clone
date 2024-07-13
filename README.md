@@ -24,7 +24,7 @@ yarn build
 run the following command for development:
 
 ```
-yarn run dev
+yarn start
 ```
 
 ### Hosting url
